@@ -2,9 +2,6 @@ tap "goles/battery"
 tap "homebrew/bundle"
 tap "homebrew/core"
 
-brew "python"
-brew link --overwrite python
-
 brew "bat"
 brew "bats-core"
 brew "coreutils"
