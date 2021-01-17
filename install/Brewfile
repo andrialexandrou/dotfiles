@@ -2,6 +2,9 @@ tap "goles/battery"
 tap "homebrew/bundle"
 tap "homebrew/core"
 
+brew "python"
+brew link --overwrite python
+
 brew "bat"
 brew "bats-core"
 brew "coreutils"
@@ -22,7 +25,6 @@ brew "nano"
 brew "pandoc"
 brew "peco"
 brew "psgrep"
-brew "python"
 brew "shellcheck"
 brew "ssh-copy-id"
 brew "stow"
