@@ -79,8 +79,6 @@ ruby: brew
 	brew install ruby
 
 brew-packages: brew
-	brew install python
-	brew link --overwrite python
 	brew bundle --file=$(DOTFILES_DIR)/install/Brewfile
 
 cask-apps: brew
